@@ -972,7 +972,12 @@ footer a i{
     .img-about img{
         max-width: 100%;
         height: auto;
-        width: 200px;
+        width: 290px;
+    }
+    .home-image .img-box img{
+        width: 80%;
+        max-width: 220px;
+        height: auto;
     }
     .info-about1, .info-about2, .info-about3{
         display: none;
@@ -983,6 +988,14 @@ footer a i{
         font-size: 1rem;
     }
     .btn-box{
-        margin-right: 15px;
+        padding-right: 15px;
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .social-icon a{
+        width: 40px;
+        height: 80%;
     }
 }
