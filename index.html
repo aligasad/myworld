@@ -349,7 +349,7 @@
             <h2>Contact Me !</h2>
         </div>
 
-        <form class="scroll-bottom" action="https://formspree.io/f/xvojrwgp" method="POST" >
+        <form class="scroll-bottom" onsubmit="sendEmail(); reset(); return false;">
             <input type="text" id="name" placeholder="Your Name" required>
             <input type="email" id="email" placeholder="Your Email" required>
             <input type="text" id="phone" placeholder="Phone Number" required>
