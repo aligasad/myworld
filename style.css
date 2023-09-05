@@ -114,8 +114,8 @@ section{
     padding: 100px 10%;
 }
 .home{
-/*     min-height: 100vh; */
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -312,7 +312,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     grid-gap: 2em;
     background: var(--second-bg-color);
 }
@@ -384,9 +383,6 @@ section{
     font-weight: 600;
 }
 /* services----------------------------------- */
-.services{
-    height: 100vh;
-}
 .main-text{
     width: 100%;
     text-align: center;
@@ -454,7 +450,6 @@ section{
 /* Skills left section----------------------------------- */
 .skills{
     background: var(--second-bg-color);
-    height: 100vh;
 }
 .skill-main{
     width: 100%;
@@ -573,9 +568,6 @@ section{
 
 
 /* portfolio section -------------------------------------------- */
-.portfolio{
-    height: 100vh;
-}
 .filter-buttons{
     margin: 2rem;
     text-align: center;
