@@ -119,3 +119,18 @@ scrollBottom.forEach((e1)=>observer.observe(e1));
 
 const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((e1)=>observer.observe(e1));
+
+function sendEmail(){
+    Email.send({
+        SecureToken: "366d1615-360e-4a74-8169-fddba87efeb2",
+        To : 'wanderlustinfo026@gmail.com',
+        From : document.getElementById("email").value,
+        Subject : "New Contact Form Enquary",
+        Body : "Name : " + document.getElementById("name").value
+               +"<br>Email : "+document.getElementById("email").value
+               +"<br>Phone No. : "+document.getElementById("phone").value
+               +"<br>Message : "+document.getElementById("message").value
+    }).then(
+      message => alert("Message sent Sucessfully")
+    );
+}
