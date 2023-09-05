@@ -12,7 +12,7 @@
     --text-color:#f5f5f5;
     --hover-color: #12f7ff;
     --bg-color: black;
-    --second-bg-color:#292e33;
+    --second-bg-color:rgba(46, 53, 46, 0.898);
     --big-font:2.5rem;
     --normal-font:2rem;
     --neon-box-shadow:0 0 0.5rem  #12f7ff;
@@ -568,6 +568,7 @@ section{
 
 
 /* portfolio section -------------------------------------------- */
+
 .filter-buttons{
     margin: 2rem;
     text-align: center;
@@ -753,13 +754,13 @@ footer a i{
 .scroll-bottom{
     opacity: 0;
     transform: translateY(300px);
-    transition: 3s;
+    transition: 2s;
 }
 
 .scroll-top{
     opacity: 0;
     transform: translateY(-300px);
-    transition: 3s;
+    transition: 2s;
 }
 .show-items{
     opacity: 1;
@@ -965,14 +966,13 @@ footer a i{
     footer p{
         font-size: .6rem;
     }
-    .filter-buttons .button{
-        font-size: .8rem;
-    }
+    
     .img-about img{
         max-width: 100%;
         height: auto;
         width: 290px;
     }
+
     .home-image .img-box img{
         width: 80%;
         max-width: 220px;
@@ -982,21 +982,21 @@ footer a i{
         display: none;
 
     }
-
     .img-about p{
         font-size: 1rem;
     }
+/* eitdz */
     .btn-box{
         padding-right: 15px;
         display: inline-flex;
         justify-content: space-around;
         align-items: center;
     }
-    
     .social-icon a{
         width: 40px;
         height: 80%;
     }
+
     .info-about1,
     .info-about2,
     .info-about3{
@@ -1019,4 +1019,5 @@ footer a i{
     .info-about3 p{
         font-size: 8px;
     }
+    
 }
