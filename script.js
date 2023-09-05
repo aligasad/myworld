@@ -122,7 +122,7 @@ scrollTop.forEach((e1)=>observer.observe(e1));
 
 function sendEmail(){
     Email.send({
-        SecureToken: "366d1615-360e-4a74-8169-fddba87efeb2",
+        SecureToken: "07fed28a-c186-4084-88e2-52678a4672ec",
         To : 'wanderlustinfo026@gmail.com',
         From : document.getElementById("email").value,
         Subject : "New Contact Form Enquary",
