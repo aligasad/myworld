@@ -1028,7 +1028,7 @@ footer a i{
         width: 85%;
         height: 100%;
         z-index: -1;
-        top: 28%;
+        top: 35%;
     }
     .liquid-shape:nth-child(2){
         filter: blur(25px);
