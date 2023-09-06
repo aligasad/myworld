@@ -1025,10 +1025,10 @@ footer a i{
     }
     .liquid-shape{
         position: absolute;
-        width: 100%;
+        width: 85%;
         height: 100%;
         z-index: -1;
-        top: 23%;
+        top: 28%;
     }
     .liquid-shape:nth-child(2){
         filter: blur(25px);
