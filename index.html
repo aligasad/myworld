@@ -375,13 +375,13 @@
             <h2>Contact Me !</h2>
         </div>
 
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLSdJqlHb2xZ9Xt8XxrIKmWegRl2KtthHfKZTDqmxKJURqoomBA/formResponse"  class="scroll-bottom">
-            <input type="text" placeholder="Your Name" name="entry.1461374020" required>
-            <input type="email" placeholder="Your Email" name="entry.706526693" required>
-            <input type="text" placeholder="Phone Number" name="entry.1374921275" required>
-            <textarea name="entry.197120200" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <form   class="scroll-bottom">
+            <input type="text"  placeholder="Your Name" id="Name"  required>
+            <input type="email" placeholder="Your Email" id="Email"  required>
+            <input type="text" placeholder="Phone Number" id="Phone"  required>
+            <textarea   cols="30" rows="10" placeholder="Your Message" id="Message" required></textarea>
             <div class="btn-box formBtn">
-                <button type="submit" class="btn">Send Message</button>
+                <button class="btn" type="button" onclick="sendEmail()" >Send Message</button>
             </div>
         </form>
     </section>
@@ -390,9 +390,8 @@
         <p class="scroll-scale">Copyright &copy; 2023 by WanderLust026</p>
         <a href="#home" class="arrow"><i class='bx bxs-arrow-from-bottom'></i></a>
     </footer>
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="mixitup.min.js"></script>
     <script src="script.js"></script>
-    <script src=" https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>
