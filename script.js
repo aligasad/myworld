@@ -119,3 +119,23 @@ scrollBottom.forEach((e1)=>observer.observe(e1));
 
 const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((e1)=>observer.observe(e1));
+
+function sendEmail(){
+            let name = document.getElementById("Name").value;
+            let email = document.getElementById("Email").value;
+            let phone = document.getElementById("Phone").value;
+            let message = document.getElementById("Message").value;
+
+            let body = "Name: "+ name + "<br/>Email: "+ email + "<br/> Phone: "+phone + "<br/>Message: " + message;
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "wanderlustinfo026@gmail.com",
+                Password : "7BDCAAB2DAE2355EEC7714A4CBFBCE8D1167",
+                To : 'asadalamalig@gmail.com',
+                From : "wanderlustinfo026@gmail.com",
+                Subject : "This is the subject",
+                Body : body
+            }).then(
+              message => alert(message)
+            );
+        }
