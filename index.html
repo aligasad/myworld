@@ -381,7 +381,7 @@
             <input type="text" placeholder="Phone Number" id="Phone"  required>
             <textarea   cols="30" rows="10" placeholder="Your Message" id="Message" required></textarea>
             <div class="btn-box formBtn">
-                <button class="btn" type="button" onclick="sendEmail()" >Send Message</button>
+                <button class="btn" type="button" onclick="sendEmail(); reset(); return false;" >Send Message</button>
             </div>
         </form>
     </section>
