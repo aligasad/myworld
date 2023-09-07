@@ -128,9 +128,7 @@ function sendEmail(){
 
             let body = "Name: "+ name + "<br/>Email: "+ email + "<br/> Phone: "+phone + "<br/>Message: " + message;
             Email.send({
-                Host : "smtp.elasticemail.com",
-                Username : "wanderlustinfo026@gmail.com",
-                Password : "7BDCAAB2DAE2355EEC7714A4CBFBCE8D1167",
+                SecureToken : "9cd14af5-16ee-4c1c-8024-879730391a55",
                 To : 'asadalamalig@gmail.com',
                 From : "wanderlustinfo026@gmail.com",
                 Subject : "This is the subject",
