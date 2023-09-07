@@ -136,6 +136,6 @@ function sendEmail(){
                 Subject : "This is the subject",
                 Body : body
             }).then(
-              message => alert(message)
+              message => alert("Thanks for Contact me.")
             );
         }
