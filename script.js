@@ -136,6 +136,6 @@ function sendEmail(){
                 Subject : "This is the subject",
                 Body : body
             }).then(
-              message => alert("Thankyou")
+              message => alert("Thanks for contacting Asad Alig.")
             );
         }
