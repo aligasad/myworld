@@ -742,6 +742,7 @@ footer a{
     background: var(--hover-color);
     padding: .2rem;
     border-radius: 5px;
+    z-index: 100;
 }
 
 footer a i{
