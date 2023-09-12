@@ -1043,7 +1043,7 @@ footer a i{
     /* -- background pic---------------------------------- */
     #bgp{
         position: fixed;
-        opacity: .5;
+        opacity: .3;
         height: 100%;
     }
 }
