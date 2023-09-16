@@ -1039,11 +1039,4 @@ footer a i{
     .liquid-shape:nth-child(2){
         filter: blur(25px);
     }
-
-    /* -- background pic---------------------------------- */
-    #bgp{
-        position: fixed;
-        opacity: .3;
-        height: 100%;
-    }
 }
