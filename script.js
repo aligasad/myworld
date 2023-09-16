@@ -21,7 +21,7 @@ let changeText = ()=>{
     Array.from(currentWord.children).forEach((letter,i)=>{
         setTimeout(()=>{
             letter.className = "letter out";
-        }, i*80);
+        }, 100 + i*80);
     });
     nextWord.style.opacity="1";
     Array.from(nextWord.children).forEach((letter,i)=>{
