@@ -1064,11 +1064,15 @@ footer a i{
     position: relative;
     display: block;
     width: calc(127% + 1.3px);
-    height: 55px;
+    height: 100px;
 }
 
 .top .shape-fill {
     fill: #2E352EE5;
+}
+
+.secondc .shape-fill {
+    fill: rgba(46, 53, 46, 0.898);
 }
 
 /** For tablet devices **/
