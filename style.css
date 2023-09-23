@@ -1063,14 +1063,14 @@ footer a i{
     height: 149px;
 }
 
-.top .shape-fill {
+.top1 .shape-fill {
     fill: #292e33;
 }
 .top2 .shape-fill {
     fill: black;
 }
 .top3 .shape-fill {
-    fill: #2E352EE5;
+    fill: #292e33;
 }
 
 /** For tablet devices **/
