@@ -390,6 +390,9 @@ section{
     font-weight: 600;
 }
 /* services----------------------------------- */
+.services{
+    position: relative;
+}
 .main-text{
     width: 100%;
     text-align: center;
@@ -1061,7 +1064,7 @@ footer a i{
     position: relative;
     display: block;
     width: calc(127% + 1.3px);
-    height: 149px;
+    height: 55px;
 }
 
 .top .shape-fill {
