@@ -875,7 +875,7 @@ footer a i{
 }
 
 /* Break Points---------------------------------------- */
-@media(max-width:991px){
+@media(max-width:1400px){
     header,
     header.sticky{
         padding: 15px 5%;
