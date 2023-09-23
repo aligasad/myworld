@@ -460,6 +460,7 @@ section{
 /* Skills left section----------------------------------- */
 .skills{
     background: var(--second-bg-color);
+    position: relative;
 }
 .skill-main{
     width: 100%;
@@ -1072,7 +1073,7 @@ footer a i{
 }
 
 .secondc .shape-fill {
-    fill: rgba(46, 53, 46, 0.898);
+    fill: var(--second-bg-color);
 }
 
 /** For tablet devices **/
