@@ -1069,7 +1069,7 @@ footer a i{
 }
 
 .top .shape-fill {
-    fill: #2E352EE5;
+    fill: var(--second-bg-color);
 }
 
 .secondc .shape-fill {
