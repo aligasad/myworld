@@ -20,7 +20,7 @@
     --second-bg-color: #292e33;
     --big-font:2.5rem;
     --normal-font:2rem;
-    --neon-box-shadow:0 0 0.5rem  #12f7ff;
+    --neon-box-shadow:0 0 0.5rem  #CC313D;
     --h2-font:3rem;
     --font-neon-text-shadow:0 0 10px #CC313D,
     0 0 20px #CC313D,
@@ -875,7 +875,7 @@ footer a i{
 }
 
 /* Break Points---------------------------------------- */
-@media(max-width:1400px){
+@media(max-width:991px){
     header,
     header.sticky{
         padding: 15px 5%;
