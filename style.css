@@ -701,6 +701,7 @@ section{
     color: var(--text-color);
     background-color: var(--bg-color);
     margin-bottom: .8rem;
+    outline-color: #CC313D;
     border: none;
     border-radius: 5px;
     padding: .7rem;
