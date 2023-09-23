@@ -119,6 +119,7 @@ section{
     padding: 100px 10%;
 }
 .home{
+    position: relative;
     min-height: 100vh;
     height: 100%;
     width: 100%;
@@ -1039,5 +1040,39 @@ footer a i{
     }
     .liquid-shape:nth-child(2){
         filter: blur(25px);
+    }
+}
+
+
+/* SHAPE DIVIDER */
+.custom-shape-divider-bottom-1695477573 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1695477573 svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 149px;
+}
+
+.top .shape-fill {
+    fill: #2E352EE5;
+}
+.top .shape-fill {
+    fill: #2E352EE5;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-bottom-1695477573 svg {
+        width: calc(112% + 1.3px);
+        height: 109px;
     }
 }
