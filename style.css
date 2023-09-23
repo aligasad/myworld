@@ -315,6 +315,7 @@ section{
 /* About Section CSS -------------------------------------- */
 
 .about{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1063,14 +1064,8 @@ footer a i{
     height: 149px;
 }
 
-.top1 .shape-fill {
-    fill: #292e33;
-}
-.top2 .shape-fill {
-    fill: black;
-}
-.top3 .shape-fill {
-    fill: #292e33;
+.top .shape-fill {
+    fill: #2E352EE5;
 }
 
 /** For tablet devices **/
