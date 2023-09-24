@@ -187,6 +187,9 @@ section{
     font-size: .9rem;
     color: #bdbdbd;
 }
+.github-info span a{
+    color: #CC313D;
+}
 .btn-box{
     display: flex;
     justify-content: space-between;
