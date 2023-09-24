@@ -582,7 +582,9 @@ section{
 
 
 /* portfolio section -------------------------------------------- */
-
+.portfolio{
+    position: relative;
+}
 .filter-buttons{
     margin: 2rem;
     text-align: center;
@@ -695,6 +697,7 @@ section{
 .contact{
     background: var(--second-bg-color);
     width: 100%;
+    position: relative;
 }
 
 .contact form{
