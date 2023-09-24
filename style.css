@@ -1052,6 +1052,12 @@ footer a i{
     .liquid-shape:nth-child(2){
         filter: blur(25px);
     }
+    .custom-shape-divider-bottom-1695575751 svg {
+        position: relative;
+        display: block;
+        width: calc(120% + 1.3px);
+        height: 30px;
+    }
 }
 
 
