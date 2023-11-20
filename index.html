@@ -8,7 +8,8 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
-<body>
+<body onload="myFunction()">
+    <div id="loading"></div>
         <!-- header site---------------------------------- -->
     <header>
         <div class="logo"><span>A</span>sad.</div>
@@ -436,6 +437,12 @@
         <p class="scroll-scale">Copyright &copy; 2023 by WanderLust026</p>
         <a href="#home" class="arrow"><i class='bx bxs-arrow-from-bottom'></i></a>
     </footer>
+    <script>
+        var preloader = document.getElementById("loading");
+        function myFunction(){
+            preloader.style.display = 'none';
+        }
+    </script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="mixitup.min.js"></script>
     <script src="script.js"></script>
