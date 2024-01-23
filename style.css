@@ -511,13 +511,9 @@ section{
     border-radius: 25px;
     box-shadow: var(--neon-box-shadow);
 }
-.skill-bar .bar .html{
-    width: 90%;
+.skill-bar .bar .html-css{
+    width: 80%;
     animation: html 2s;
-}
-.skill-bar .bar .css{
-    width: 75%;
-    animation: css 2.7s;
 }
 .skill-bar .bar .javascript{
     width: 65%;
@@ -526,6 +522,14 @@ section{
 .skill-bar .bar .c-lang{
     width: 65%;
     animation: c-lang 3.0s;
+}
+.skill-bar .bar .sql{
+    width: 80%;
+    animation: w-press 3.2s;
+}
+.skill-bar .bar .java{
+    width: 75%;
+    animation: w-press 3.2s;
 }
 .skill-bar .bar .w-press{
     width: 60%;
