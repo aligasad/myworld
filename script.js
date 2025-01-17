@@ -130,7 +130,7 @@ function sendEmail(){
             Email.send({
                 SecureToken : "9cd14af5-16ee-4c1c-8024-879730391a55",
                 To : 'asadalamalig@gmail.com',
-                From : "wanderlustinfo026@gmail.com",
+                From : 'wanderlustinfo026@gmail.com',
                 Subject : "MESSAGE FROM USERS.",
                 Body : body
             }).then(
