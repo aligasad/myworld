@@ -128,12 +128,12 @@ function sendEmail(){
 
             let body = "Name: "+ name + "<br/>Email: "+ email + "<br/> Phone: "+phone + "<br/>Message: " + message;
             Email.send({
-                SecureToken : "9cd14af5-16ee-4c1c-8024-879730391a55",
+                SecureToken : "2bdea1fc-77b0-4958-9c8e-94b7ac526cab",
                 To : 'asadalamalig@gmail.com',
-                From : 'wanderlustinfo026@gmail.com',
+                From : "wanderlustinfo026@gmail.com",
                 Subject : "MESSAGE FROM USERS.",
-                Body : body
+                Body : "body"
             }).then(
-              message => alert("Thanks for contacting Asad Alig.")
+              message => alert(message)
             );
-        }
+}
