@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @font-face{
-    font-family: poppons;
-/*     src: url(./domain.ttf); */
+    font-family: domain;
+    src: url(./domain.ttf);
 }
 *{
     padding: 0;
@@ -10,6 +10,9 @@
     list-style: none;
     scroll-behavior: smooth;
     text-decoration: none;
+}
+::selection{
+    background-color: #cc313e42;
 }
 #loading{
     position: fixed;
@@ -364,9 +367,10 @@ section{
     margin-bottom: .2rem;
 }
 .about-content p{
-    color: #fdfdfd;
+    color: #bdbdbd;
     font-weight: 300;
     margin-bottom: 1.5rem;
+    line-height: 1.6;
 }
 
 .info-about1,
@@ -471,6 +475,10 @@ section{
     letter-spacing: 1px;
     color: #bdbdbd;
     line-height: 1.6;
+}
+.service-box li{
+    color: #bdbdbd;
+    line-height: 1.3;
 }
 /* Skills left section----------------------------------- */
 .skills{
@@ -748,6 +756,10 @@ section{
 .formBtn .btn{
     cursor: pointer;
     font-size: 1rem;
+}
+::placeholder{
+    color: #CC313D;
+    font-style: italic;
 }
 
 /* footer website section------------- */
